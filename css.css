@@ -1,1 +1,30 @@
 
+/*justin*/
+
+.no-dec {
+        text-align: center;
+        margin: auto;
+        margin-bottom: 4em;
+
+
+}
+
+
+
+.card-td h2 {
+        margin: .7em;
+}
+
+.panel-body {
+        text-align: center;
+}
+.open {
+        color: green;
+
+}
+
+.modal {
+        margin: auto;
+        width: 40%;
+        margin-top: 4em;
+}
