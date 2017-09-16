@@ -2,3 +2,28 @@
 
           color:red;
 }
+
+
+/*justin*/
+
+.no-dec {
+        text-align: center;
+        margin: auto;
+        margin-bottom: 4em;
+
+
+}
+
+
+
+.card-td h2 {
+        margin: .7em;
+}
+
+.panel-body {
+        text-align: center;
+}
+.open {
+        color: green;
+
+}
