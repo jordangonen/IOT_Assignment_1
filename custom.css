@@ -96,3 +96,7 @@ body {
 .num-input {
         width: 30px;;
 }
+.pad {
+  padding-top: 10px;
+  padding-bottom:10px;
+}
