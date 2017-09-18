@@ -25,9 +25,11 @@ body {
 }
 
 
-.nav-bar li a:hover {
+.menu-btn:hover {
         color: white;
 }
+
+
 
 
 /*Card*/
@@ -65,4 +67,32 @@ body {
 .card-btns button {
         padding: 1em;
         margin: 1em;
+}
+
+.new-card-content {
+        margin: auto;
+        text-align: center;
+        font-size: 2em;
+}
+
+
+.new-card-link {
+        color: black;
+        text-decoration: none;
+}
+.new-card-link:hover {
+        color: grey;
+}
+
+/*Forms*/
+
+.form-container {
+        margin: auto;
+        width: 40%;
+        text-align: center;
+        padding: 3em;
+}
+
+.num-input {
+        width: 30px;;
 }
