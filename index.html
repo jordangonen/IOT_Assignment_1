@@ -27,7 +27,7 @@
                 <div class="row">
                         <div class="col-md-4">
                                 <div class="panel panel-default">
-                                        <div class="panel-heading open">Home 1 is open</div>
+                                        <div class="panel-heading open">Home 1 is closed</div>
                                         <div class="panel-body">
                                                 <table class="no-dec">
                                                         <tr>
@@ -63,14 +63,68 @@
                                                                 <div class="modal-dialog" role="document">
                                                                         <div class="modal-content">
                                                                                 <div class="modal-header">
-                                                                                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                                                                        <h5 class="modal-title" id="exampleModalLabel">Home 1</h5>
                                                                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                           <span aria-hidden="true">&times;</span>
                                         </button>
                                                                                 </div>
-                                                                                <div class="modal-body">
-                                                                                        ...
-                                                                                </div>
+
+                                                                                        <div class="form-group row">
+                                                                                                <label class="col-2 col-form-label">Garage Name</label>
+                                                                                                <div class="col-10">
+                                                                                                        <input class="form-control" type="text" value="Garage Name">
+                                                                                                </div>
+                                                                                        </div>
+                                                                                        <div class="form-group row">
+                                                                                                <label class="col-2 col-form-label">Garage ID</label>
+                                                                                                <div class="col-10">
+                                                                                                        <input class="form-control" type="text" value="ID">
+                                                                                                </div>
+                                                                                        </div>
+                                                                                        <div class="form-group row">
+
+
+                                                                                        <h4> Which Enviromental Sensors Do You Have?</h4>
+                                                                                        <label class="form-check-label">
+                                                                                              <input type="checkbox" class="form-check-input">
+                                                                                              Temperature
+                                                                                            </label>
+                                                                                            <label class="form-check-label">
+                                                                                                  <input type="checkbox" class="form-check-input">
+                                                                                                  Humidity
+                                                                                                </label>
+                                                                                                <label class="form-check-label">
+                                                                                                      <input type="checkbox" class="form-check-input">
+                                                                                                      Motion Sensing
+                                                                                                    </label>
+
+                                                                                                </div>
+
+                                                                                                <div class="form-group row">
+                                                                                                  <label for="example-number-input" class="col-2 col-form-label">How long should the door wait to auto close(mins)?</label>
+                                                                                                  <div class="col-10">
+                                                                                                    <input class="form-control" type="number" value="10" id="example-number-input">
+                                                                                                  </div>
+                                                                                                </div>
+                                                                                                <div class="form-group row">
+
+
+                                                                                                <h4>Mobile Alerts?</h4>
+                                                                                                <label class="form-check-label">
+                                                                                                      <input type="checkbox" class="form-check-input">
+                                                                                                      Door Opens
+                                                                                                    </label>
+                                                                                                    <label class="form-check-label">
+                                                                                                          <input type="checkbox" class="form-check-input">
+                                                                                                          Door Closes
+                                                                                                        </label>
+                                                                                                        <br />
+                                                                                                        <label class="form-check-label">
+                                                                                                              <input type="checkbox" class="form-check-input">
+                                                                                                              Door Open For:<input class="form-control" type="number" value="10" id="example-number-input">
+                                                                                                            </label>
+
+                                                                                                        </div>
                                                                                 <div class="modal-footer">
                                                                                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                                                                                         <button type="button" class="btn btn-primary">Save changes</button>
@@ -87,7 +141,7 @@
                         </div>
                         <div class="col-md-4">
                                 <div class="panel panel-default">
-                                        <div class="panel-heading open">Home 2 is closed</div>
+                                        <div class="panel-heading open">Home 2 is open</div>
                                         <div class="panel-body">
                                                 <table class="no-dec">
                                                         <tr>
@@ -115,7 +169,7 @@
                                                         </tr>
                                                 </table>
                                                 <div class="card-bttn">
-                                                        <button type="button" class="btn btn-success">Open</button>
+                                                        <button type="button" class="btn btn-danger">Close</button>
                                                         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#edit-modal">Edit</button>
                                                 </div>
                                         </div>
@@ -133,7 +187,7 @@
                                                         <div class="modal-dialog" role="document">
                                                                 <div class="modal-content">
                                                                         <div class="modal-header">
-                                                                                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                                                                <h3 class="modal-title" id="exampleModalLabel">New Garage</h3>
                                                                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                   <span aria-hidden="true">&times;</span>
                                 </button>
@@ -154,7 +208,7 @@
                                                                                 <div class="form-group row">
 
 
-                                                                                <h5> What Enviromental Sensors Do You Have?</h5>
+                                                                                <h4> Which Enviromental Sensors Do You Have?</h4>
                                                                                 <label class="form-check-label">
                                                                                       <input type="checkbox" class="form-check-input">
                                                                                       Temperature
@@ -179,7 +233,7 @@
                                                                                         <div class="form-group row">
 
 
-                                                                                        <h5>Mobile Alerts?</h5>
+                                                                                        <h4>Mobile Alerts?</h4>
                                                                                         <label class="form-check-label">
                                                                                               <input type="checkbox" class="form-check-input">
                                                                                               Door Opens

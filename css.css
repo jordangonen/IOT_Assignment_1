@@ -43,3 +43,8 @@
         width: 2em;
         height: 2em;
 }
+
+
+.form-group {
+        display: inline;
+}
