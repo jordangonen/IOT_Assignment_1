@@ -35,3 +35,10 @@
 .test {
   padding-top:20px;
 }
+
+
+#new-btn {
+        font-size: 5em;
+        width: 2em;
+        height: 2em;
+}
