@@ -1,5 +1,6 @@
 body {
         font-family: 'Slabo 27px', serif;
+        background-color: #1F487E;
 
 }
 /*https://www.w3schools.com/css/css_navbar.asp was a guide for nav bar style*/
@@ -9,15 +10,17 @@ body {
         margin: 0;
         padding: 0;
         overflow: hidden;
-        background-color: green;
+        background-color: #143642;
+
 }
 
 .nav-bar li {
         float: left;
+
 }
 
 .nav-bar li a {
-        color: black;
+        color: white;
         display: block;
         text-align: center;
         padding: 14px 16px;
@@ -26,7 +29,7 @@ body {
 
 
 .menu-btn:hover {
-        color: white;
+        color: grey;
 }
 
 
@@ -35,17 +38,18 @@ body {
 /*Card*/
 
 .card {
-        border: 5px solid black;
+        border: 2px solid black;
         border-radius: 1em;
         margin: 1em;
         width: 20%;
         overflow: hidden;
         display: inline-block;
+        background-color: white;
 
 }
 
 .card-title {
-        background-color: grey;
+        background-color: #1282A2;
         text-align: center;
         padding-top: 1em;
         padding-bottom: 1em;
@@ -61,7 +65,7 @@ body {
 .card-btns {
         text-align: center;
         margin: auto;
-        background-color: grey;
+        background-color: #1282A2;
 }
 
 .card-btns button {
