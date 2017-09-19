@@ -100,6 +100,10 @@ body {
 .num-input {
         width: 30px;;
 }
+.yard-input {
+        width: 40px;;
+}
+
 .pad {
   padding-top: 10px;
   padding-bottom:10px;
