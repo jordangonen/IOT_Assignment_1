@@ -62,10 +62,19 @@ body {
         width: 80%;
 }
 
+.fa-i{
+        font-size: 3em;
+}
+
 .card-btns {
         text-align: center;
         margin: auto;
-        background-color: #1282A2;
+        background-color: rgb(43, 129, 29);
+        padding: 1em;
+}
+
+#open {
+        background-color: rgb(232, 54, 15);
 }
 
 .card-btns button {
@@ -107,4 +116,21 @@ body {
 .pad {
   padding-top: 10px;
   padding-bottom:10px;
+}
+
+
+.no-dec-a {
+        text-decoration: none;
+        color: black;
+        padding: .7em;
+        margin: 1em;
+        background-color: rgb(162, 159, 161);
+
+}
+.no-dec-a: hover {
+        text-decoration: none;
+        color: black;
+        padding: 1em;
+        margin: 1em;
+
 }
